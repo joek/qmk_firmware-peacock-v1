@@ -36,6 +36,16 @@
         "driver": "ws2812",
         "led_count": 6,
         "max_brightness": 40,
+        "layout": [
+            {"flags": 4, "matrix": [0, 1], "x": 0, "y": 0},
+            {"flags": 4, "matrix": [0, 2], "x": 1, "y": 0},
+            {"flags": 4, "matrix": [0, 3], "x": 2, "y": 0},
+            {"flags": 4, "matrix": [0, 4], "x": 3, "y": 0},
+            {"flags": 4, "matrix": [0, 5], "x": 4, "y": 0}
+        ],
+        "default": {
+            "animation": "splash"
+        },
         "animations": {
             "solid_color": true,
             "alphas_mods": true,
